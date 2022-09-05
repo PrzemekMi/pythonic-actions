@@ -30,4 +30,9 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      -  run: bash ./check-file.sh
+    - uses: actions/checkout@v2
+    - name: Run script file
+      run: |
+         chmod +x ./check-file.sh
+         ./check-file.sh
+      shell: bash
