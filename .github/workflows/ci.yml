@@ -31,5 +31,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run build script
-        run: .github/scripts/check-file.sh
+        run: ./.github/scripts/check-file.sh
         shell: bash
