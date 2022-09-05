@@ -30,6 +30,4 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Run build script
-        run: bash ./check-file.sh
-        shell: bash
+      -  run: bash check-file.sh
