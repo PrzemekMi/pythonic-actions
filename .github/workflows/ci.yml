@@ -26,3 +26,9 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
       - run: python platform_info.py
+
+  example-job:
+    steps:
+      - name: Run build script
+        run: ./.github/scripts/check-file.sh
+        shell: bash
