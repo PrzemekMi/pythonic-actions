@@ -2,4 +2,5 @@
 
 echo "Shell of ubuntu"
 
-echo uname -r
+uname -r
+hostnamectl
