@@ -28,6 +28,7 @@ jobs:
       - run: python platform_info.py
 
   example-job:
+    runs-on: ubuntu-latest
     steps:
       - name: Run build script
         run: ./.github/scripts/check-file.sh
