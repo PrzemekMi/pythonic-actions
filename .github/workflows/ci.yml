@@ -30,4 +30,4 @@ jobs:
   example-job:
     runs-on: ubuntu-latest
     steps:
-      -  run: bash check-file.sh
+      -  run: bash ./check-file.sh
