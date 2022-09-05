@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-ping google.com
+echo "Shell of ubuntu"
+
+echo uname -r
